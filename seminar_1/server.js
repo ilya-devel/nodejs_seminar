@@ -15,7 +15,7 @@ const server = http.createServer((req, res) => {
             'Content-Type':'text/html; charset=UTF-8',
         });
         countAbout++;
-        res.end(`<h1>About</h1><p>Count: ${countAbout}</p><a href="/">Home</a>`);
+        res.end(`<h1>About</h1><p>Count: ${countAbout}</p><a href="/">Home page</a>`);
     } else {
         res.writeHead(404, {
             'Content-Type':'text/html; charset=UTF-8',
@@ -23,7 +23,7 @@ const server = http.createServer((req, res) => {
         res.end('<h1>Forbidden page</h1>');
     }
 
-    
+
 });
 
 const port = 3000;
