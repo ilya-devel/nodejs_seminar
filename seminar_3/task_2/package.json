@@ -1,0 +1,13 @@
+{
+  "name": "task_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "write": "node ./writePerson.js",
+    "update": "node ./changePerson.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

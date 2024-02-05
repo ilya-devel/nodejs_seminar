@@ -1,0 +1,12 @@
+{
+  "name": "math_function_by_ilya",
+  "version": "1.1.0",
+  "description": "math function for education",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "keywords": [],
+  "author": "ilya.devel",
+  "license": "ISC"
+}
